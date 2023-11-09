@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+}
+
+body { 
+  margin: 0;
+}
+
+/*Form Section*/
+.form-container{
+  background-color: #655DBB;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-bottom: 60px;
+}
+.form-container a{
+  text-decoration: none;
+  color: #fff;
+}
+.form-container form{
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  text-align: center;
+  width: 100%; 
+}
+.title{
+  font-size: 30px;
+  color: #655DBB;
+  font-weight: bold;
+}
+.form-container form .form-space{
+  margin-top: 15px;
+}
+.form-container form .column {
+  float: left;
+  width: 25% !important;
+  padding: 5px;
+}
+.form-container form .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.form-container form input,
+.form-container form select{
+  width: 100%;
+  padding: 15px;
+  padding-bottom: 15px;
+  font-size: 15px;
+  background-color: #eee;
+  border-radius: 5px;
+  border: 1px solid blue;
+  margin: 5px 0px 0px -8px;
+}
+.form-container form select option{
+  background-color: #fff;
+}
+.form-container form .form-btn{
+  width: 150px;
+  background-color: darkblue;
+  color: #fff;
+  text-transform: capitalize;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 10px;
+  margin-left: 5px;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  display: flex;
+  margin-top: 15px;
+}
+.form-container form label{
+  display: flex;
+  margin-top: 15px;
+}
+.train-icon{
+  font-size: 50px;
+  margin-top: 10px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 50%;
+}
+/*table*/
+table{
+  text-transform: uppercase;
+  font-style: italic;
+}
+table th, table td {
+  padding: 5px 5px;
+  text-align: center;
+  width: 200px;
+}
+
+.ticket-details{
+  background-color: #eee;
+  border-radius: 15px;
+  float: left;
+  width: 60%;
+  font-style: italic;
+  border: 5px solid #655DBB;
+}
+.fa-train{
+  font-size: 50px;
+  color: #655DBB;
+}
+.pnr,.booking-id{
+  color: #655DBB;
+  font-size: 18px;
+}
+.train-name{
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: #fff;
+  background-color: #655DBB;
+  border: 10px solid #68a9ad;
+}
+.train-name h4{
+  margin-top: 5px;
+}
+.train{
+  border-top: 1px solid blue;
+}
+.passenger{
+  color: darkblue;
+  border-top: 1px solid blue;
+}
+.pdf{
+  float: right;
+  width: 40%;
+}
+.printBtn{
+  padding: 12px;
+  border: 1px solid #655DBB;
+  color: #fff;
+  background-color: #655DBB;
+  border-radius: 10px;
+  width: 50%;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 10px;
+}
+.printBtn:hover{
+  background-color: #68a9ad;
+}
+.returnBtn,.addBtn{
+  padding: 12px;
+  border: 1px solid #655DBB;
+  color: #fff;
+  background-color: #655DBB;
+  border-radius: 10px;
+  width: 50%;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 10px;
+}
+.returnBtn:hover,.addBtn:hover{
+  background-color: #68a9ad;
+}
+.logo{
+  font-size: 30px;
+    border: 1px solid darkblue;
+    background: darkblue;
+    color: #fff;
+    padding: 5px;
+    border-radius: 30px;
+}

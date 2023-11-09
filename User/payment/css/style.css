@@ -1,0 +1,364 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap'); */
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    background-image: url(/or2s/User/payment/images/background.jpg);
+}
+
+.container form {
+    padding: 20px;
+    width: 700px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+}
+
+.container form .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.container form .row .col {
+    flex: 1 1 250px;
+}
+
+.container form .row .col .title {
+    font-size: 20px;
+    color: #333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.container form .row .col .inputBox {
+    margin: 15px 0;
+}
+
+.container form .row .col .inputBox span {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.container form .row .col .inputBox input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+}
+
+.container form .row .col .inputBox input:focus {
+    border: 1px solid #000;
+}
+
+.container form .row .col .flex {
+    display: flex;
+    gap: 15px;
+}
+
+.container form .row .col .flex .inputBox {
+    margin-top: 5px;
+}
+
+.container form .row .col .inputBox img {
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px #000);
+}
+
+.container form .submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 17px;
+    background: #27ae60;
+    color: #fff;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.container form .submit-btn:hover {
+    background: #2ecc71;
+}
+
+#left {
+    /* border: 1px solid rgb(104, 104, 104); */
+    min-height: 89vh;
+    width: 20%;
+    background-color: rgb(235, 235, 235);
+}
+
+#lefttop {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid rgb(219, 219, 219);
+    border-radius: 5px;
+}
+
+#onit {
+    background-color: white;
+    border: 1px solid white;
+    justify-content: space-around;
+}
+
+p {
+    font-weight: bold;
+    padding: 2px 5px;
+}
+
+.rajat {
+    display: flex;
+    border: 1px solid rgb(204, 204, 204);
+    padding: 10px;
+    margin-bottom: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+h5 {
+    color: red;
+    margin-bottom: 2%;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#mainC {
+    /* border :1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 60%;
+    padding: 10px;
+    /* margin: auto; */
+    gap: 0px 20px;
+    margin-bottom: 10%;
+}
+
+
+/* .radio{
+  width: 15px;
+} */
+
+.lol {
+    border: 2px solid rgb(255, 172, 172);
+    justify-content: center;
+    margin: auto;
+    /* height: 100px; */
+    height: 80%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.lol:hover {
+    border: 2px solid red;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+#bank {
+    width: 95%;
+    border: 1px solid grey;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10%;
+    border-radius: 3px;
+}
+
+#banks {
+    font-weight: bold;
+    padding: 2px 5px;
+    width: 100%;
+    overflow: scroll;
+}
+
+option {
+    width: 100%;
+    font-weight: bold;
+}
+
+.one {
+    border-right: 1px solid rgb(206, 206, 206);
+    width: 60%;
+    padding: 17px;
+    margin-bottom: 30px;
+}
+
+.two {
+    display: flex;
+}
+
+#three {
+    border: 1px solid rgb(206, 206, 206);
+}
+
+#lmao {
+    margin-bottom: 20px;
+}
+
+#upi {
+    border-bottom: 2px solid rgb(179, 179, 179);
+    height: 115px;
+    padding: 14px 14px 20px 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.btn {
+    width: 15%;
+    height: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.upi {
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+
+
+/* --------------------------------------------- */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    /* padding-top: 100px;  */
+    left: 0;
+    top: 80px;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+/* Modal Content */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+    text-align: center;
+}
+
+
+/* The Close Button */
+
+#close,
+#close1,
+#close2,
+#close3,
+#close4 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#close:hover,
+#close1:hover,
+#close2:hover,
+#close3:hover,
+#close4:hover,
+#close:focus,
+#close1:focus,
+#close2:focus,
+#close3:focus,
+#close4:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.floating {
+    /* border: 1px solid red; */
+    height: 50%;
+    width: 50%;
+    margin: auto;
+    padding: 9px;
+    margin-bottom: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#qr {
+    width: 100%;
+}
+
+#first1 {
+    border: 2px solid rgb(184, 184, 184);
+    margin: auto;
+    /* height: 20%; */
+    width: 50%;
+}
+
+#firstimg {
+    height: 300px;
+    width: 179px;
+    margin-left: 76px;
+    margin-top: 10px;
+}
+
+.texts {
+    margin: 20px 10px;
+    color: #aaaaaa;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 17px;
+    background: #27ae60;
+    color: #fff;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#heading {
+    font-family: sans-serif;
+    background-color: rgb(60, 119, 185);
+}
+
+#text {
+    margin-left: 522px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    color: #fff;
+}

@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+}
+
+body { 
+  margin: 0;
+}
+
+/*Form Section*/
+.form-container{
+  background-color: gray;
+/*  float: left;*/
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-bottom: 60px;
+}
+.form-container a{
+  text-decoration: none;
+  color: #fff;
+}
+.form-container form{
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  text-align: center;
+  width: 100%; 
+}
+.form-container form .form-space{
+  margin-top: 15px;
+}
+.form-container form .column {
+  float: left;
+  width: 25% !important;
+  padding: 5px;
+}
+.form-container form .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.form-container form input,
+.form-container form select{
+  width: 100%;
+  padding: 15px;
+  padding-bottom: 15px;
+  font-size: 15px;
+  background-color: #eee;
+  border-radius: 5px;
+  border: 1px solid blue;
+  margin: 5px 0px 0px -8px;
+}
+.form-container form .email{
+  text-transform: lowercase;
+}
+.form-container form select option{
+  background-color: #fff;
+}
+.form-container form .form-btn{
+  width: 150px;
+  background-color: #645CBB;
+  color: #fff;
+  text-transform: capitalize;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 10px;
+  margin-left: 5px;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  display: flex;
+  margin-top: 15px;
+}
+.form-container form .form-btn:hover{
+  background-color: #A084DC;
+  border: 1px solid #A084DC;
+  color: #fff;
+}
+
+.form-container form label{
+  display: flex;
+  margin-top: 15px;
+}
+.form-container form label b{
+  color: red;
+}
+.form-container form h5{
+  display: flex;
+  background: blue;
+  color: #fff;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+/*table*/
+table{
+  font-size: 15px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+thead tr{
+  background-color: #865DFF;
+  color: white;
+  font-weight: bold;
+}
+table th, table td{
+  padding: 12px 10px;
+  border: 1px solid #865DFF;
+  width: 200px;
+}
+tbody tr td{
+  text-align: center;
+  background-color: white;
+}
+.title h3{
+  border-bottom: 1px solid blue;
+  background: #865DFF;
+  color: #fff;
+  padding: 20px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  margin-top: -20px;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.cancelBtn{
+  padding: 15px;
+  background: red;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid red;
+  cursor: pointer;
+  width: 100px;
+}
+.cancelBtn a{
+  text-decoration: none;
+  color: #fff;
+}
+.cancelBtn:hover{
+  background: #EE4B2B;
+  color: #fff;
+}
+.pagination-container nav li{
+  border: 1px solid blue;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 5px;
+  cursor: pointer;
+}
+.pageNum{
+    width: 15%;
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.printBtn{
+  background-color: #68a9ad;
+    border: 1px solid #68A9AC;
+    padding: 15px;
+    color: #fff;
+    border-radius: 5px;
+    width: 100px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .form-container form .column {
+    width: 100%;
+  }
+  .menu{
+    display: none;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .form-container form .column {
+    width: 100%;
+  }
+  .menu{
+    display: none;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .form-container form .column {
+    width: 50%;
+  }
+  .menu{
+    display: none;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+ .form-container form .column {
+    width: 33%;
+  }
+  .menu{
+    display: block;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .form-container form .column {
+    width: 33%;
+  }
+  .menu{
+    display: block;
+  }
+}
+

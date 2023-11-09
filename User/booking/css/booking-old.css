@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+}
+
+body { 
+  margin: 0;
+}
+
+/*Form Section*/
+.form-container{
+  background-color: gray;
+/*  float: left;*/
+/*  min-height: 100vh;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-bottom: 60px;
+}
+.form-container a{
+  text-decoration: none;
+  color: #fff;
+}
+.form-container form{
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  text-align: center;
+  width: 750px; 
+}
+.form-container form h3{
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: blue;
+}
+.form-container form .form-space{
+  margin-top: 15px;
+}
+.form-container form .column {
+  float: left;
+  width: 25% !important;
+  padding: 5px;
+}
+.form-container form .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.form-container form input,
+.form-container form select{
+  width: 100%;
+  padding: 15px;
+  font-size: 15px;
+  background-color: #eee;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  margin: 5px 0px 0px -8px;
+}
+.form-container form .email{
+  text-transform: lowercase;
+}
+.form-container form select option{
+  background-color: #fff;
+}
+.form-container form .form-btn{
+  width: 100px;
+  background-color: darkblue;
+  color: #fff;
+  text-transform: capitalize;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 10px;
+  margin-left: 5px;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  display: flex;
+  margin-top: 15px;
+}
+.form-container form .back-btn,
+.form-container form .reg-btn{
+  margin-left: 0px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: darkblue;
+  color: #fff;
+  text-transform: capitalize;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.form-container form .registerBtn{
+  margin-top: -52px;
+  margin-left: 110px;
+  width: 100px;
+  display: flex;
+  /*align-items: center;
+  justify-content: center;*/
+  background-color: blue;
+  border: 1px solid blue;
+  color: #fff;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.form-container form .back-btn:hover{
+  background-color: blue;
+  border: 1px solid blue;
+  color: #fff;
+}
+.form-container form .form-btn:hover{
+  background-color: blue;
+  border: 1px solid blue;
+  color: #fff;
+}
+.form-container form .registerBtn:hover{
+  background-color: darkblue;
+  border: 1px solid darkblue;
+  color: #fff;
+}
+.form-container form label{
+  display: flex;
+  margin-top: 15px;
+}
+.form-container form label b{
+  color: red;
+}
+.form-container form h5{
+  display: flex;
+  background: blue;
+  color: #fff;
+  padding: 5px;
+  border-radius: 10px;
+}
+/*table*/
+.book-table{
+  margin-top: -75px;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.payment-table{
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+table{
+/*  margin: 25px;*/
+  font-size: 15px;
+  min-width: 750px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+thead tr{
+  background-color: #eee;
+  color: blue;
+  font-weight: bold;
+}
+table th, table td{
+  padding: 12px 15px;
+}
+tbody tr td{
+  text-align: center;
+  background-color: white;
+}
+/*payment-details*/
+/*.payment-details{
+  margin-left: 395px;
+  margin-right: 395px;
+  padding: 20px;
+  background-color: gray;
+  flex-direction: row;
+  background-color: #fff;
+
+}
+.amount{
+  border: 1px solid #fff;
+}
+
+.addPerson{
+  float: left;
+  padding: 15px;
+  background-color: blue;
+  color: #fff;
+  border: 1px solid darkblue;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.removeBtn{
+  float: left;
+  margin-left: 10px;
+  padding: 15px;
+  background-color: red;
+  color: #fff;
+  border: 1px solid red;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .form-container form .column {
+    width: 100%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .form-container form .column {
+    width: 100%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .form-container form .column {
+    width: 50%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+ .form-container form .column {
+    width: 33%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .form-container form .column {
+    width: 33%;
+  }
+}
+

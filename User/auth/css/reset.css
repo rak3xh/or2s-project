@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body { 
+  margin: 0;
+}
+
+/*Form Section*/
+.form-container{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-bottom: 60px;
+  background-color: blue;
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  background-image: url(/or2s/User/images/forgot/2.jpg);
+}
+.form-container a{
+  text-decoration: none;
+}
+.form-container form{
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  opacity: 0.6;
+  text-align: center;
+  height: fit-content;
+  width: 530px;
+  border: 1px solid #fff;
+}
+.form-container form h1{
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: black;
+}
+.form-container form .form-space{
+  margin-top: 15px;
+}
+.form-container form .column {
+  float: left;
+  width: 100%;
+  padding: 5px;
+}
+.form-container form .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.form-container form input,
+.form-container form select{
+  width: 90%;
+  /*padding-top: 15px;
+  padding-bottom: 15px;*/
+  font-size: 17px;
+  background-color:transparent;
+  border: transparent;
+  border-bottom: 3px solid blue;
+  margin: 5px 0px 0px -8px;
+
+}
+.form-container form select option{
+  background-color: #fff;
+}
+.form-container form .form-btn{
+  width: 100%;
+  background-color: darkblue;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 10px;
+  outline: none;
+  border: 1px solid darkblue;
+}
+.form-container form .form-btn:hover{
+  background-color: blue;
+  border: 1px solid blue;
+  color: #fff;
+}
+.form-container form label{
+	display: flex;
+}
+#icons{
+  float: left;
+ margin-top: 10px;
+}

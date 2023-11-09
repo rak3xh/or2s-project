@@ -1,0 +1,12 @@
+footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+}
+
+.footer-bottom {
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,37 @@
+/*table*/
+.timeTable table{
+    margin: 25px;
+    font-size: 15px;
+    min-width: 500px;
+    border-radius: 5px;
+    /* text-transform: uppercase; */
+    border: 1px solid blue;
+  }
+  .timeTable thead tr{
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+  }
+  .timeTable table th, 
+  .timeTable table td{
+    padding: 12px 15px;
+  }
+  .timeTable table td{
+  border: 1px solid darkblue;
+  }
+  .timeTable table td i{
+    cursor: pointer;
+  }
+  .timeTable table td .view{
+    color: blue;
+  }
+  .timeTable table td .edit{
+    color: green;
+  }
+  .timeTable table td .delete{
+    color: red;
+  }
+  .timeTable table tbody tr td{
+    text-align: center;
+    background-color: white;
+  }

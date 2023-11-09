@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/*Form Section*/
+.form-container{
+  background-color: royalblue;
+  min-height: 85vh;
+  display: flex;
+  padding: 20px;
+  padding-bottom: 60px;
+}
+.form-container a{
+  text-decoration: none;
+  color: #fff;
+}
+.form-container form{
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  text-align: center;
+  width: 100%; 
+}
+.title{
+  font-size: 30px;
+  color: darkblue;
+  font-weight: bold;
+}
+.form-container form .form-space{
+  margin-top: 15px;
+}
+.form-container form .column {
+  float: left;
+  width: 31% !important;
+  padding: 5px;
+}
+.form-container form .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.form-container form input,
+.form-container form select{
+  padding: 15px;
+  padding-bottom: 15px;
+  font-size: 15px;
+  background-color: #eee;
+  border-radius: 5px;
+  border: 1px solid blue;
+  margin: 5px 0px 0px -8px;
+}
+.form-container form textarea{
+  padding: 15px;
+  font-size: 15px;
+  background-color: #eee;
+  border-radius: 5px;
+  border: 1px solid blue;
+  margin: 5px 0px 0px -8px;
+  width: 298%;
+  height: 200px;
+}
+.form-container form select option{
+  background-color: #fff;
+}
+.form-container form .form-btn{
+  width: 150px;
+  background-color: darkblue;
+  color: #fff;
+  text-transform: capitalize;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 10px;
+  margin-left: 5px;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  display: flex;
+  margin-top: 15px;
+}
+.form-container form label{
+  display: flex;
+  margin-top: 15px;
+}
+.sendBtn{
+  padding: 15px;
+  background-color: darkblue;
+  border-radius: 5px;
+  border: 1px solid darkblue;
+  color: #fff;
+}
+.sendBtn:hover{
+  background-color: blue;
+  border: 1px solid blue;
+}

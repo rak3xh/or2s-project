@@ -1,0 +1,314 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*Header*/
+
+.header {
+    display: flex;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    margin-left: -5px;
+}
+
+.sticky a {
+    color: white;
+}
+
+ul {
+    padding: 10px;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+li a:active {
+    color: white;
+}
+
+.active {
+    color: #fff;
+    border: 2px solid #655DBB;
+    background-color: #865DFF;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: blue;
+}
+
+.login {
+    margin-left: 50px;
+}
+
+.slogin {
+    margin-left: 70px;
+    border: 1px solid blue;
+    background-color: #fff;
+    color: blue;
+    border-radius: 5px;
+}
+
+.slogin:active {
+    color: #fff;
+    background-color: blue;
+}
+
+.login,
+.logout {
+    border: 1px solid #655DBB;
+    background-color: #865DFF;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.register {
+    border: 1px solid #865DFF;
+    background-color: #655DBB;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.login:active,
+.register:active .logout:active {
+    color: blue;
+    background-color: #fff;
+}
+
+.user {
+    float: right;
+    margin-left: 20px;
+}
+
+.logoutbtn {
+    float: right;
+    margin-left: 80px;
+    margin-top: -20px;
+}
+
+.button {
+    float: right;
+    margin-left: 70px;
+}
+
+
+/*Image*/
+
+.banner {
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* train schedule page */
+
+.schedule {
+    background-color: #AAB7B8;
+    min-height: 100vh;
+}
+
+.schd {
+    /*  font-size: 20px; */
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.submitbtn {
+    padding: 10px;
+    border: 1px solid #655DBB;
+    border-radius: 5px;
+    background-color: #865DFF;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+}
+
+.submitbtn:hover {
+    border: 1px solid #655DBB;
+    background-color: #655DBB;
+}
+
+
+/*Form Section*/
+
+.form-container {
+    background-color: gray;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+.form-container a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.form-container form {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.title {
+    font-size: 30px;
+    color: green;
+    font-weight: bold;
+}
+
+.form-container form .form-space {
+    margin-top: 15px;
+}
+
+.form-container form .column {
+    float: left;
+    width: 16.6% !important;
+    padding: 5px;
+}
+
+.form-container form .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.form-container form input,
+.form-container form select {
+    padding: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    background-color: #eee;
+    border-radius: 5px;
+    border: 1px solid blue;
+    margin: 5px 0px 0px -8px;
+}
+
+.form-container form select option {
+    background-color: #fff;
+}
+
+.form-container form .form-btn {
+    width: 150px;
+    background-color: darkblue;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    display: flex;
+    margin-top: 15px;
+}
+
+.form-container form label {
+    display: flex;
+    margin-top: 15px;
+}
+
+.train-icon {
+    font-size: 50px;
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+/*table*/
+
+table {
+    font-size: 15px;
+    min-width: 750px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+thead tr {
+    background-color: maroon;
+    color: white;
+    font-weight: bold;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+    border: 2px solid black;
+    width: 200px;
+}
+
+tbody tr td {
+    text-align: center;
+    background-color: white;
+    opacity: .8;
+}
+
+footer {
+    background: #AAB7B8;
+    padding: 10px;
+    margin-top: -25px;
+}
+
+#sche {
+    padding-top: 10px;
+}
+
+.removeBtn {
+    padding: 15px;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid red;
+    cursor: pointer;
+    width: 100px;
+}
+
+.removeBtn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.removeBtn:hover {
+    background: #EE4B2B;
+    color: #fff;
+}

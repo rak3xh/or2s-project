@@ -1,0 +1,130 @@
+/*Header*/
+
+.header {
+    display: flex;
+    overflow: hidden;
+    padding: 5px;
+    background-color: #EEE;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: darkgray;
+    color: white;
+    margin-left: -5px;
+}
+
+.sticky a {
+    color: white;
+}
+
+ul {
+    padding: 10px;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+li a:active {
+    color: blue;
+}
+
+.active {
+    color: white;
+    border: 2px solid #655DBB;
+    background-color: #865DFF;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #ff7f00;
+}
+
+.login {
+    margin-left: 50px;
+}
+
+.slogin {
+    margin-left: 70px;
+    border: 1px solid blue;
+    background-color: #fff;
+    color: blue;
+    border-radius: 5px;
+}
+
+.slogin:active {
+    color: #fff;
+    background-color: blue;
+}
+
+.login,
+.logout {
+    border: 1px solid #645CBB;
+    background-color: #645CBB;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.register {
+    border: 1px solid #645CBB;
+    background-color: #645CBB;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.login:active,
+.register:active .logout:active {
+    color: blue;
+    background-color: #fff;
+}
+
+.user {
+    float: right;
+    margin-left: 20px;
+}
+
+.logoutbtn {
+    float: right;
+    margin-left: 10px;
+}
+
+.button {
+    float: right;
+    margin-left: 70px;
+}
+
+.profile {
+    color: darkblue;
+    cursor: pointer;
+    border: none;
+}
+
+#second {
+    border-bottom: 5px solid #000;
+}
+
+#showtrain {
+    border: 2px solid black;
+    background-color: maroon;
+    border-radius: 3px;
+    color: #fff;
+    width: 96%;
+}

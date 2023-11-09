@@ -1,0 +1,380 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+/*Form Section*/
+
+.form-container {
+    background-color: black;
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+.form-container a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.form-container form {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: maroon;
+    text-align: center;
+    width: 85%;
+}
+
+.form-container form .form-space {
+    margin-top: 15px;
+}
+
+.form-container form .column {
+    float: left;
+    width: 20% !important;
+    padding: 5px;
+}
+
+.form-container form .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.form-container form input,
+.form-container form select {
+    width: 100%;
+    padding: 7px;
+    padding-bottom: 8px;
+    font-size: 17px;
+    background-color: #eee;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 5px 0px 0px -8px;
+    text-transform: uppercase;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.3);
+}
+
+.form-container form .email {
+    text-transform: lowercase;
+}
+
+.form-container form select option {
+    background-color: #fff;
+}
+
+.form-container form .form-btn {
+    width: 125px;
+    background-color: blue;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    display: flex;
+    margin-top: 90px;
+}
+
+.form-container form .back-btn,
+.form-container form .reg-btn {
+    margin-left: 0px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.form-container form .registerBtn {
+    margin-top: -52px;
+    margin-left: 110px;
+    width: 100px;
+    display: flex;
+    background-color: blue;
+    border: 1px solid blue;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.form-container form .back-btn:hover {
+    background-color: darkblue;
+    border: 1px solid darkblue;
+    color: #fff;
+}
+
+.form-container form .form-btn:hover {
+    background-color: darkblue;
+    border: 1px solid darkblue;
+    color: #fff;
+}
+
+.form-container form .registerBtn:hover {
+    background-color: darkblue;
+    border: 1px solid darkblue;
+    color: #fff;
+}
+
+.form-container form label {
+    display: flex;
+    margin-top: 15px;
+    color: #fff;
+}
+
+.form-container form label b {
+    color: red;
+}
+
+.form-container form h5 {
+    display: flex;
+    background: blue;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+/*table*/
+
+.book-table {
+    /*  float: right;*/
+    background-color: gray;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    font-size: 15px;
+    min-width: 545px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+thead tr {
+    background-color: gray;
+    color: black;
+    font-weight: bold;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+    border: 3px solid black;
+}
+
+tbody tr td {
+    text-align: center;
+    background-color: white;
+}
+
+.addPerson {
+    float: left;
+    padding: 10px;
+    background-color: green;
+    color: #fff;
+    border: 1px solid green;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.removeBtn {
+    width: 100px;
+    padding: 15px;
+    background-color: red;
+    color: #fff;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.title h3 {
+    padding: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.disable {
+    pointer-events: none;
+    color: gray;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .form-container form .column {
+        width: 100%;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    .form-container form .column {
+        width: 100%;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .form-container form .column {
+        width: 50%;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    .form-container form .column {
+        width: 33%;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    .form-container form .column {
+        width: 33%;
+    }
+}
+
+.chan {
+    width: 47px;
+    border-radius: 39px;
+    padding: 15px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.title {
+    border-bottom: 1px solid lightgray;
+    background: lightgray;
+    color: #000;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    margin-top: -20px;
+}
+
+#pd {
+    margin-left: 160px;
+    background-color: orange;
+}
+
+#pdl {
+    margin-left: 126px;
+    width: 140px;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#rj {
+    margin-left: 350px;
+}
+
+#rjl {
+    margin-left: 300px;
+    width: 140px;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#pm {
+    margin-left: 520px;
+}
+
+#pml {
+    margin-left: 472px;
+    width: 140px;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#addPerson1 {
+    margin-left: 720px;
+    width: 100%;
+}
+
+#price {
+    background-color: gray;
+}
+
+#fare {
+    margin-top: 50px;
+}
+
+#note {
+    border-top: 3px solid black;
+    margin-top: 5px;
+    padding-top: 10px;
+    width: 101%;
+    font-size: 18px;
+    background-color: lightgray;
+    text-align: left;
+    padding-left: 20px;
+    margin-left: -10px;
+    padding-right: 10px;
+}
+
+#note1 {
+    width: 101%;
+    font-size: 18px;
+    background-color: lightgray;
+    text-align: left;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    margin-left: -10px;
+    border-bottom: 3px solid black;
+    margin-bottom: 5px;
+}
+
+.detail {
+    background-color: lightgray;
+    padding: 30px;
+}
+
+.detail h1 {
+    text-align: left;
+    border-bottom: 3px solid black;
+}
+
+#phnum {
+    width: 300px;
+    margin-left: -855px;
+}
+
+#contact {
+    color: white;
+    border: 2px solid black;
+    width: 26%;
+    background-color: grey;
+    padding: 10px;
+}
