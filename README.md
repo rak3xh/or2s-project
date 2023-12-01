@@ -1,6 +1,6 @@
 <h1 align="center">
  <p> OR2S</p> [Online Railway Reservation System]<br/>
-  <a href="https://rak3xh-portfolio.vercel.app/" target="_blank"><p align="center"><img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcW9lemZ0bWNnanFpOWRleWowNnM2Mnp6bTN2eWE4bTVmanRlbmNrNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/A7LF3J4uMJQ4r8ApLg/giphy.gif"height="60px" width="150"/></p> </a>
+  
 </h1>
 
 <br/>
@@ -90,6 +90,38 @@ Runs the website in your browser smoothly and you can enjoy all the features of 
 
 Open the project folder and Navigate to `/User`. <br/>
 You will find all the components used and you can edit your information accordingly.
+
+## Screenshots
+
+<div>
+
+- **Home Page**
+  <a href="https://ibb.co/VWF904W"><img src="https://i.ibb.co/tM0KwrM/1.png" alt="1" border="0"></a>
+
+- **Login Page**
+  <a href="https://ibb.co/FstbVc0"><img src="https://i.ibb.co/tZ5MXnx/2.png" alt="2" border="0"></a>
+
+- **Register Page**
+  <a href="https://ibb.co/Px4vhPQ"><img src="https://i.ibb.co/H7Yfzbd/3.png" alt="3" border="0"></a>
+
+- **Train List**
+  <a href="https://ibb.co/sPmd2rX"><img src="https://i.ibb.co/Qcb3fGx/9.png" alt="9" border="0"></a>
+
+- **Booking Page**
+  <a href="https://ibb.co/FbdHJqp"><img src="https://i.ibb.co/svXWQJ7/11.png" alt="11" border="0"></a>
+  <a href="https://ibb.co/j4MstB5"><img src="https://i.ibb.co/4NT3k9f/12.png" alt="12" border="0"></a>
+  <a href="https://ibb.co/Y0QXJty"><img src="https://i.ibb.co/Z2XSvhY/14.png" alt="14" border="0"></a>
+
+- **Payment Page**
+  <a href="https://ibb.co/8NV8cqH"><img src="https://i.ibb.co/9cjYt67/15.png" alt="15" border="0"></a>
+
+- **Ticket Pdf**
+  <a href="https://ibb.co/dPFS6Ww"><img src="https://i.ibb.co/5rmdvMg/22.png" alt="22" border="0"></a>
+
+- **Admin Portal**
+  <a href="https://ibb.co/WxMSBh4"><img src="https://i.ibb.co/ZLFycjp/24.png" alt="24" border="0"></a>
+
+</div>
 
 ### Show your support
 
