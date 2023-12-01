@@ -96,7 +96,7 @@ You will find all the components used and you can edit your information accordin
 <div>
 
 - **Home Page**
-  <a href="https://ibb.co/VWF904W"><img src="https://i.ibb.co/tM0KwrM/1.png" alt="1" border="0"></a>
+<p>  <a href="https://ibb.co/VWF904W"><img src="https://i.ibb.co/tM0KwrM/1.png" alt="1" border="0"></a></p>
 
 - **Login Page**
   <a href="https://ibb.co/FstbVc0"><img src="https://i.ibb.co/tZ5MXnx/2.png" alt="2" border="0"></a>
