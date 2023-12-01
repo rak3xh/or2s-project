@@ -93,34 +93,40 @@ You will find all the components used and you can edit your information accordin
 
 ## Screenshots
 
-<div>
+<div align="left">
 
 - **Home Page**
 <p>  <a href="https://ibb.co/VWF904W"><img src="https://i.ibb.co/tM0KwrM/1.png" alt="1" border="0"></a></p>
 
 - **Login Page**
-  <a href="https://ibb.co/FstbVc0"><img src="https://i.ibb.co/tZ5MXnx/2.png" alt="2" border="0"></a>
+ <p> <a href="https://ibb.co/FstbVc0"><img src="https://i.ibb.co/tZ5MXnx/2.png" alt="2" border="0"></a>
+</p>
 
 - **Register Page**
-  <a href="https://ibb.co/Px4vhPQ"><img src="https://i.ibb.co/H7Yfzbd/3.png" alt="3" border="0"></a>
+ <p> <a href="https://ibb.co/Px4vhPQ"><img src="https://i.ibb.co/H7Yfzbd/3.png" alt="3" border="0"></a>
+</p>
 
 - **Train List**
-  <a href="https://ibb.co/sPmd2rX"><img src="https://i.ibb.co/Qcb3fGx/9.png" alt="9" border="0"></a>
+<p>  <a href="https://ibb.co/sPmd2rX"><img src="https://i.ibb.co/Qcb3fGx/9.png" alt="9" border="0"></a>
+</p>
 
 - **Booking Page**
-  <a href="https://ibb.co/FbdHJqp"><img src="https://i.ibb.co/svXWQJ7/11.png" alt="11" border="0"></a>
+<p>  <a href="https://ibb.co/FbdHJqp"><img src="https://i.ibb.co/svXWQJ7/11.png" alt="11" border="0"></a>
   <a href="https://ibb.co/j4MstB5"><img src="https://i.ibb.co/4NT3k9f/12.png" alt="12" border="0"></a>
   <a href="https://ibb.co/Y0QXJty"><img src="https://i.ibb.co/Z2XSvhY/14.png" alt="14" border="0"></a>
+</p>
 
 - **Payment Page**
-  <a href="https://ibb.co/8NV8cqH"><img src="https://i.ibb.co/9cjYt67/15.png" alt="15" border="0"></a>
+<p>  <a href="https://ibb.co/8NV8cqH"><img src="https://i.ibb.co/9cjYt67/15.png" alt="15" border="0"></a>
+</p>
 
 - **Ticket Pdf**
-  <a href="https://ibb.co/dPFS6Ww"><img src="https://i.ibb.co/5rmdvMg/22.png" alt="22" border="0"></a>
+<p>  <a href="https://ibb.co/dPFS6Ww"><img src="https://i.ibb.co/5rmdvMg/22.png" alt="22" border="0"></a>
+</p>
 
 - **Admin Portal**
-  <a href="https://ibb.co/WxMSBh4"><img src="https://i.ibb.co/ZLFycjp/24.png" alt="24" border="0"></a>
-
+<p>  <a href="https://ibb.co/WxMSBh4"><img src="https://i.ibb.co/ZLFycjp/24.png" alt="24" border="0"></a>
+</p>
 </div>
 
 ### Show your support
